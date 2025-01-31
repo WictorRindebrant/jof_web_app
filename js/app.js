@@ -3,5 +3,5 @@ document.getElementById('new-game').addEventListener('click', () => {
 });
 
 function navigateToPage(page) {
-    window.location.href = window.location.origin + "/" + page;
+    window.location.href = page;
 }
