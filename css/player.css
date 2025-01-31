@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;  /* Centers vertically */
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+}
+
+#playerName {
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding: 12px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    height: 60px;
+    width: 250px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nameBox {
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    padding: 12px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 220px;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.player-container {
+    margin-top: 10px;
+}
+
+#playerAddBtn {
+    border-radius: 25px;
+    background-color: lightgreen;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.player button {
+    border-radius: 25px;
+    background-color: red;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.player button:hover {
+    background-color: darkred;
+}
