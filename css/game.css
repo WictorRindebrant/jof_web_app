@@ -7,6 +7,13 @@ body {
     background-color: green;
 }
 
+#start-txt {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;  /* Centers vertically */
+}
+
 .card {
     width: 150px;
     height: 220px;
