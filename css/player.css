@@ -7,14 +7,15 @@ body {
     background-color: black;
     color: white;
     font-family: 'Poppins', sans-serif;
-    margin: 20px;
 }
 
-h2 {
+#start-txt {
     display: flex;
     flex-direction: column;
-    align-self: center;
-    align-items: center;  /* Centers vertically */
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    font-size: 50px;
 }
 
 .player-container {
@@ -22,6 +23,7 @@ h2 {
     flex-direction: column;
     justify-content: center;  /* Centers horizontally */
     align-items: center;  /* Centers vertically */
+    margin-left: 64px;
 }
 
 #playerName {
@@ -36,10 +38,12 @@ h2 {
     border: none;
     cursor: pointer;
     border-radius: 25px;
-    height: 60px;
-    width: 250px;
+    height: 40px;
+    width: 235px;
+    margin-bottom: 10px;
     transition: all 0.3s ease;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 58px;
 }
 
 .nameBox {
@@ -55,9 +59,11 @@ h2 {
     cursor: pointer;
     height: 30px;
     width: 220px;
+    margin-bottom: 10px;
     transition: all 0.3s ease;
     background-color: gray;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 9px;
 }
 
 #start-btn {
