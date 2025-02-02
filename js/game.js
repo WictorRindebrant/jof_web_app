@@ -67,6 +67,7 @@ function startGame() {
     deck.shuffleDeck();
     updateCardsLeft(totalCards);
     displayCardBack();
+    hideButton();
 }
 
 function displayCardBack() {
@@ -99,11 +100,21 @@ function displayNextCard() {
         cardDiv.onclick = displayNextCard;
         gameDiv.appendChild(cardDiv);
     } else {
-        
         gameDiv.innerHTML = "<p>No more cards left.</p>";
+        showButton();
     }
 }
 
 function updateCardsLeft(count) {
     document.getElementById("cardsLeft").innerText = count + "/52";
+}
+
+function showButton() {
+    const button = document.getElementById('start-btn');
+    button.style.visibility = 'visible';
+}
+
+function hideButton() {
+    const button = document.getElementById('start-btn');
+    button.style.visibility = 'hidden';
 }

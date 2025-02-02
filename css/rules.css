@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
+/* === Global Styles === */
 body {
     background-color: black;
     color: white;
@@ -11,58 +12,40 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* === Headings === */
 h1 {
     color: red;
+    text-align: center;
 }
 
+/* === Mobile Guide Frame === */
+#mobile-size {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 360px;  /* Typical mobile width */
+    height: 612px; /* Typical mobile height */
+    
+    /* outline: 2px dashed red; /* Outline instead of border */
+    pointer-events: none; /* Ensures clicks go through */
+    z-index: 9999;
+}
+
+/* === Centered Start Text === */
 #start-txt {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 5px;
     font-size: 45px;
 }
 
-.button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.option-btn {
-    width: 200px;
-    height: 50px;
-    font-size: 30px;
-}
-
-#copy-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-top: 50px;
-    font-size: 10px;
-}
-
-.option-btn {
-    padding: 12px 25px;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-    border: none;
-    background: linear-gradient(45deg, #ff416c, #ff4b2b);
-    color: white;
-    cursor: pointer;
-    border-radius: 25px;
-    height: 60px;
-    width: 250px;
-    text-align: center;
-    transition: all 0.3s ease;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-}
-
-.option-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+#fileContent {
+    width: 320px;
+    text-align: left;
+    word-wrap: break-word; /* Old method (still works) */
+    overflow-wrap: break-word; /* Modern method */
+    white-space: normal; /* Ensures text wraps */
 }

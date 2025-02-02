@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,19 +12,20 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png">
 </head>
+
 <body>
+    <div id="mobile-size"></div>
     <main>
-        <section id="start">
-            <h1 id="start-txt">Add Players</h2>
+        <h1 id="start-txt">Add Players</h2>
             <input type="text" id="playerName" placeholder="Enter player name">
             <button id="playerAddBtn" onclick="addPlayer()">+</button>
 
-    <div class="player-container" id="playerList"></div>
+            <div class="player-container" id="playerList"></div>
             <button id="start-btn" onclick="navigateToPage('game.html')">Start Game</button>
-        </section>
     </main>
 
     <!-- Link to an external JavaScript file -->
     <script src="./js/player.js"></script>
 </body>
+
 </html>
