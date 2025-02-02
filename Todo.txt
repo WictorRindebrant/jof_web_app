@@ -1,0 +1,9 @@
+1. Fix sepperate text for Rules
+
+2. Fix right names for Game
+
+3. Fix description for Game
+
+3. Fix settings?
+
+4. Fix profile?
