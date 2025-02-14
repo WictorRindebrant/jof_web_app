@@ -1,0 +1,26 @@
+1: Red: ETT: Drick potten
+2: Red: REGEL: Jannor bestämmer (regel ändring)
+3: Red: TRE: Kom ut ur fängelse kort (byts in för att slippa 1 shot)
+4: Red: FYRA: Alla andra får shotta 4 cl (slipper nästa runda)
+5: Red: FEM: 2 klunkar
+6: Red: SEX: 4 klunkar
+7: Red: LUCKY SEVEN!: Schack om tjack. / spela Hi/Lo mot valfri motståndare om 1 shot
+8: Red: ÅTTA: Spela Black Jack mot huset, förloraren får shotta.
+9: Red: NINE: Ge ut 1 shot till valfri spelare
+10: Red: TIO: Ta 1 shot
+11: Red: ELEVEN: Häll lite i potten
+12: Red: TWLEVE: Häll lite i potten
+13: Red: THIRTEEN: Häll lite i potten
+1: Black: ETT: Drick potten
+2: Black: REGEL: Jannar bestämmer (regel ändrar)
+3: Black: TRE: Kom ut ur fängelse kort (byts in för att slippa 1 shot)
+4: Black: FYRA: Alla andra får shotta 4 cl (slipper nästa runda)
+5: Black: FEM: 2 klunkar
+6: Black: SEX: 4 klunkar
+7: Black: LUCKY SEVEN!: Schack om tjack. / spela Hi/Lo mot valfri motståndare om 1 shot
+8: Black: ÅTTA: Spela Black Jack mot huset, förloraren får shotta.
+9: Black: NINE: Ge ut 1 shot till valfri spelare
+10: Black: TIO: Ta 1 shot
+11: Black: ELEVEN: Häll lite i potten
+12: Black: TWLEVE: Häll lite i potten
+13: Black: THIRTEEN: Häll lite i potten

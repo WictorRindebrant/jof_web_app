@@ -1,5 +1,18 @@
+let players = [];
+
 function navigateToPage(page) {
-    window.location.href = page;
+    if (players.length != 0) {
+        shufflePlayers();
+        localStorage.setItem("players", JSON.stringify(players));
+        window.location.href = page;
+    }
+}
+
+function shufflePlayers() {
+    for (let i = players.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1)); // Get a random index
+        [players[i], players[j]] = [players[j], players[i]]; // Swap elements
+    }
 }
 
 function addPlayer() {
@@ -26,6 +39,7 @@ function addPlayer() {
     removeButton.textContent = "-";
     removeButton.onclick = function () {
         playerList.removeChild(playerDiv);
+        players = players.filter(item => item !== nameBox.value);
     };
 
     // Append name and button to div
@@ -34,6 +48,9 @@ function addPlayer() {
 
     // Append div to player list
     playerList.appendChild(playerDiv);
+
+    // Add player to the players list
+    players.push(nameBox.value)
 
     // Clear input field
     nameInput.value = "";
