@@ -158,7 +158,7 @@ function displayNextCard() {
         cardDiv.onclick = displayNextCard;
         gameDiv.appendChild(cardDiv);
     } else {
-        document.getElementById("player").innerText = "GG";
+        document.getElementById("player").innerText = "Janne On Fire";
         document.getElementById("desc").innerText = "<p>No more cards left.</p>";
         hideDesc()
         showButton();
